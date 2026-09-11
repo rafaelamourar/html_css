@@ -1,0 +1,61 @@
+<h1>Cotação de Seguro de Veículos</h1>
+<form>
+    <fieldset>
+    <legend>Condutor</legend>
+   <label for="nome">Nome do Proprietário:</label>
+    <input type="text"> 
+    <br>
+    <br>
+    <label for = "cnh" >CNH</label>
+    <input type ="number">
+    <br>
+    <br>
+    <label for = "data">Data de emissão da CNH</label>
+    <input type ="date">
+    <br>
+    <br>
+      <label for="solteiro">Solteiro</label>
+     <input type="radio" id="solteiro" name="solteiro" value="solteiro">
+      
+     <label for="Casado">Casado</label>
+     <input type="radio" id="casado" name="casado" value="casado">
+      
+     <label for="Divorciado">Divorciado</label>
+     <input type="radio" id="Divorciado" name="divorci" value="divorci">
+      
+     <label for="Viúvo">Viúvo</label>
+     <input type="radio" id="viuvo" name="viuvo" value="viuvo">
+     </fieldset>
+<form>
+     <fieldset>
+<legend>Veículo</legend>
+ <label for="nome">Placa do Carro:</label>
+ <input type="text" id="Placa" Placa do Carro="senha" placeholder="ABC-1234">
+<br>
+<br>
+ <label for = "Marca">Marca do Carro</label>
+<select id="Marca" name="Marca">
+  <option value="">Fiat</option>
+</select>
+<br>
+<br>
+<label for ="ano">Ano do Modelo</label>
+<input type = "text">
+     </fieldset>
+     </form>
+
+     <form>
+     <fieldset>
+<legend>Uso</legend>
+<p>Usa o carro para trabalho (Uber/Taxi)?</p>
+<label for="Sim">Sim</label>
+     <input type="radio" id="sim" name="sim" value="sim">
+     <label for="sim">Não</label>
+     <input type="radio" id="nao" name="nao" value="nao">
+     <br>
+     <br>
+     <input type="checkbox" name="possuir" id="possuir">
+     <label for="possuir">Possui rastreador instalado?</label>
+     </fieldset>
+     </form>
+     <button type="submit">Solicitar Cotação</button>
